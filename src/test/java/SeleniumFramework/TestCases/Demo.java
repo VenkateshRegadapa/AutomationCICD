@@ -6,6 +6,8 @@ public class Demo {
     @Test
     public void test()
     {
-        System.out.println("Automation Test");
+        System.out.println("Automation Test1");
+        System.out.println("Automation Test2");
+        System.out.println("Automation Test3");
     }
 }
