@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <listeners>
+        <listener class-name="TestComponents.SeleniumFramework.Listeners"/>
+    </listeners>
+
+    <test verbose="1" name="Error Validation Tests">
+        <classes>
+            <class name="TestCases.SeleniumFramework.ErrorValidations"/>
+        </classes>
+    </test>
+</suite>

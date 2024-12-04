@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <test verbose="2" name="Submit Order Tests">
+        <classes>
+            <class name="TestCases.SeleniumFramework.OptimizedTestUsingPOM"/>
+        </classes>
+    </test>
+    <test verbose="2" name="Error Validation Tests">
+        <classes>
+            <class name="TestCases.SeleniumFramework.ErrorValidations"/>
+        </classes>
+    </test>
+</suite>
