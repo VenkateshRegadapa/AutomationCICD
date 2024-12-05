@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="All Test Suite">
     <listeners>
-        <listener class-name="TestComponents.SeleniumFramework.Listeners"/>
+        <listener class-name="SeleniumFramework.TestComponents.Listeners"/>
     </listeners>
 
     <test verbose="1" name="Error Validation Tests">
         <classes>
-            <class name="TestCases.SeleniumFramework.ErrorValidations"/>
+            <class name="SeleniumFramework.TestCases.ErrorValidations"/>
         </classes>
     </test>
 </suite>

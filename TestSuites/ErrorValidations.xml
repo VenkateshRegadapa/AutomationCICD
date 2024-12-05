@@ -3,12 +3,12 @@
 <suite parallel="tests" name="All Test Suite">
     <test verbose="2" name="Submit Order Tests">
         <classes>
-            <class name="TestCases.SeleniumFramework.OptimizedTestUsingPOM"/>
+            <class name="SeleniumFramework.TestCases.OptimizedTestUsingPOM"/>
         </classes>
     </test>
     <test verbose="2" name="Error Validation Tests">
         <classes>
-            <class name="TestCases.SeleniumFramework.ErrorValidations"/>
+            <class name="SeleniumFramework.TestCases.ErrorValidations"/>
         </classes>
     </test>
 </suite>

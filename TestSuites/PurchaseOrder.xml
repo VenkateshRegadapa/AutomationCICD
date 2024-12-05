@@ -8,12 +8,12 @@
     </groups>
     <test verbose="5" name="Submit Order Tests">
         <classes>
-            <class name="TestCases.SeleniumFramework.PurchaseOrders"/>
+            <class name="SeleniumFramework.TestCases.PurchaseOrders"/>
         </classes>
     </test>
     <test verbose="5" name="Error Validation Tests">
         <classes>
-            <class name="TestCases.SeleniumFramework.ErrorValidations"/>
+            <class name="SeleniumFramework.TestCases.ErrorValidations"/>
         </classes>
     </test>
 </suite>
