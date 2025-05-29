@@ -11,6 +11,6 @@ public class Demo {
     @Test
     public void test2(){
         System.out.println("Automation Test3");
-        System.out.println("Automation Test4");
+        //System.out.println("Automation Test4");
     }
 }
